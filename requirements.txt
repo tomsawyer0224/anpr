@@ -1,0 +1,5 @@
+ultralytics==8.0.216
+easyocr==1.7.1
+torchshow==0.5.1
+paddlepaddle-gpu
+paddleocr==2.7.0.3
