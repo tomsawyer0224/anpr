@@ -11,12 +11,12 @@ How to use:
   1. Clone this repo, cd to anpr
   2. Install the requirements: pip install -q -r requirements.txt
   3. Download pre-trained models from file ./checkpoints/ckpts.txt and store them to the "checkpoints" folder.
-  4. Example:
-     from anpr import ANPR
-     plate_recognizer = ANPR(
-          detector = 'rtdetr',
-          reader = 'paddleocr'
-      )
-     image_paths = ["path/to/image1.jpg", "path/to/image2.jpg"]
+  4. Example: \
+     from anpr import ANPR \
+     plate_recognizer = ANPR( \
+          detector = 'rtdetr', \
+          reader = 'paddleocr' \
+      ) \
+     image_paths = ["path/to/image1.jpg", "path/to/image2.jpg"] \
      images = plate_recognizer.read_from_image(source = image_path)
     
