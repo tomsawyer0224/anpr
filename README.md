@@ -4,7 +4,7 @@
    First stage (Plate Detection): Detector (YOLOv8 or RT-DETR) detects plates
    Second stage (Number Reading): Reader (easyocr or PaddleOCR) reads text on the plates
 2. Supports 2 detectors and 2 readers ⟶ 4 combinations. Their recognition times are the same (~0.11s/plate), see the "benchmark_results" folder for more details.
-3. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the plate dataset (https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
+3. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
 # How to use:
 1. Clone this repo, cd to anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
