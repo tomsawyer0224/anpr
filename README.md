@@ -1,6 +1,6 @@
 # This is a personal project, for educational purposes only!
 # About this project:
-1. ANPR - Automatic Number Plate Recognition, includes two stages:
+1. **ANPR** or **Automatic Number Plate Recognition**, includes two stages:
    First stage (Plate Detection): Detector (YOLOv8 or RT-DETR) detects plates
    Second stage (Number Reading): Reader (easyocr or PaddleOCR) reads text on the plates
 2. Supports 2 detectors and 2 readers ⟶ 4 combinations. Their recognition times are the same (~0.11s/plate), see the "benchmark_results" folder for more details.
