@@ -8,7 +8,7 @@
 # How to use:
 1. Clone this repo, cd to anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
-3. Download pre-trained models from file ./checkpoints/ckpts.txt and store them in the "checkpoints" folder.
+3. Download the pre-trained models (in ./checkpoints/ckpts.txt) and store them in the "checkpoints" folder.
 4. Example:
 ```
 from anpr import ANPR
