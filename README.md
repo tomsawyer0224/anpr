@@ -1,4 +1,7 @@
-# This is a personal project, for educational purposes only!
+# ANPR - Automatic Number Plate Recognition
+ANPR is a Recognition Model that includes two stages:
+- First stage (Plate Detection): Detector (YOLOv8 or RT-DETR) detects plates.
+- Second stage (Number Reading): Reader (easyocr or PaddleOCR) reads text on the plates.
 # About this project:
 1. **ANPR** or **Automatic Number Plate Recognition** is a Recognition Model that includes two stages:
    First stage (Plate Detection): Detector (YOLOv8 or RT-DETR) detects plates
