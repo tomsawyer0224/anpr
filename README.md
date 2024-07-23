@@ -1,13 +1,14 @@
 # ANPR - Automatic Number Plate Recognition
 ANPR is a Recognition Model that includes two stages:
-- The first stage (Plate Detection): The detector (YOLOv8 or RT-DETR) detects plates.
-- The second stage (Number Reading): The reader (easyocr or PaddleOCR) reads text on the plates.
+- First stage: Plate Detection (detects all plates in the images).
+- : The detector (YOLOv8 or RT-DETR) detects plates.
+- Second stage: Number Reading (reads the text on the detected plates).
+- : The reader (easyocr or PaddleOCR) reads text on the plates.
 # About this project:
-1. **ANPR** or **Automatic Number Plate Recognition** is a Recognition Model that includes two stages:
-   First stage (Plate Detection): Detector (YOLOv8 or RT-DETR) detects plates
-   Second stage (Number Reading): Reader (easyocr or PaddleOCR) reads text on the plates
-2. Supports 2 detectors and 2 readers ⟶ 4 combinations. Their recognition times are the same (~0.11s/plate), see the "benchmark_results" folder for more details.
-3. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
+1. This is a personal project, for educational purposes only!
+2. This project was built to evaluate the perfomance when combining two detectors (YOLOv8, RT-DETR) and two readers (easyocr, PaddleOCR).
+3. Supports 2 detectors and 2 readers ⟶ 4 combinations. Their recognition times are the same (~0.11s/plate), see the "benchmark_results" folder for more details.
+4. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
 # How to use:
 1. Clone this repo, cd to anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
