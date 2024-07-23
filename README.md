@@ -26,7 +26,7 @@ yolov8_paddleocr    0.08777752872538169	  0.032225956743668994	 1.08341511285574
 rtdetr_easyocr	    0.08422949433443708	  0.03484810931174865	 1.083415112855741	True
 rtdetr_paddleocr    0.0851054154153661	  0.030265903098543444	 1.083415112855741	True
 ```
-- These models are able to recognize the plates in the normal images. \
+- These models can recognize the plates in the images that are not too blurry. \
     ![image](https://github.com/tomsawyer0224/anpr/assets/130035084/98f7c359-b211-4e8c-aeff-5a5da70df00e) \
     ![image](https://github.com/tomsawyer0224/anpr/assets/130035084/f15c5095-2308-4044-bd67-048e6c87b784) \
     ![image](https://github.com/tomsawyer0224/anpr/assets/130035084/b75f8696-c2a4-470d-8c47-f13448178a3c)
