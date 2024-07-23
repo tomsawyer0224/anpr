@@ -34,7 +34,7 @@ ANPR is a Recognition Model that includes two stages:
     - The performance is acceptable when using small models.
     - The recognition time can be reduced by using a better GPU.
 # How to use
-1. Clone this repo, cd into anpr.
+1. Clone this repo and cd into anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
 3. Download the pre-trained models (in ./checkpoints/ckpts.txt) and store them in the "checkpoints" folder.
 4. Example
