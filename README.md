@@ -25,7 +25,7 @@ rtdetr_paddleocr    0.0851054154153661	  0.030265903098543444	 1.083415112855741
 3. **Conclusions**
 - The performance is acceptable when using small models.
 - The recognition time can be reduced by using a better GPU.
-# How to use:
+# How to use
 1. Clone this repo, cd into anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
 3. Download the pre-trained models (in ./checkpoints/ckpts.txt) and store them in the "checkpoints" folder.
