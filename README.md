@@ -14,11 +14,11 @@ ANPR is a Recognition Model that includes two stages:
 - The readers are used directly.
 2. **Results**
 ```
-	anpr_type	        avg_detect_time	    avg_read_time	        avg_box	            use_gpu
-0	yolov8_easyocr	    0.08119338698195289	0.034601540981962824	1.083415112855741	True
-1	yolov8_paddleocr	0.08777752872538169	0.032225956743668994	1.083415112855741	True
-2	rtdetr_easyocr	    0.08422949433443708	0.03484810931174865	    1.083415112855741	True
-3	rtdetr_paddleocr	0.0851054154153661	0.030265903098543444	1.083415112855741	True
+anpr_type	    avg_detect_time	  avg_read_time	         avg_box	        use_gpu
+yolov8_easyocr	    0.08119338698195289	  0.034601540981962824	 1.083415112855741	True
+yolov8_paddleocr    0.08777752872538169	  0.032225956743668994	 1.083415112855741	True
+rtdetr_easyocr	    0.08422949433443708	  0.03484810931174865	 1.083415112855741	True
+rtdetr_paddleocr    0.0851054154153661	  0.030265903098543444	 1.083415112855741	True
 ```
 984 image on test
 4. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
