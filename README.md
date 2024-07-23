@@ -11,12 +11,12 @@ ANPR is a Recognition Model that includes two stages:
         - Model: yolov8m, yolov8n, rt-detrl.
         - Dataset: [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor).
         - Library: Ultralytics.
-        - Platform: Kaggle free (with T4 GPU).
+        - Platform: Kaggle Free (with a T4 GPU).
     - The readers are used directly.
-2. **Evaluate the performance of these ANPR model**
+2. **Evaluate the performance of these ANPR models**
     - Models: yolov8_easyocr, yolov8_paddleocr, rtdetr_easyocr, and rtdetr_paddleocr.
     - Test dataset: 984 images.
-    - Platform: Google Colab free (with T4 GPU).
+    - Platform: Google Colab Free (with a T4 GPU).
 3. **Results**
     - All models take the same time (0.11-0.12s) to recognize a plate.
         ```
