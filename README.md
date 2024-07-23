@@ -1,13 +1,12 @@
 # ANPR - Automatic Number Plate Recognition
 ANPR is a Recognition Model that includes two stages:
 - First stage: Plate Detection (detects all plates in the images).
-- : The detector (YOLOv8 or RT-DETR) detects plates.
 - Second stage: Number Reading (reads the text on the detected plates).
-- : The reader (easyocr or PaddleOCR) reads text on the plates.
 # About this project
 - This is a personal project, for educational purposes only!
 - This project was built to evaluate the performance when combining two detectors (YOLOv8, RT-DETR) and two readers (easyocr, PaddleOCR).
 # Experiment
+984 image on test
 4. Pre-trained models (detectors) are stored in the file "./checkpoints/ckpts.txt". They have been trained on the [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor) by the Ultralytics library.
 # How to use:
 1. Clone this repo, cd to anpr.
