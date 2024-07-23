@@ -1,4 +1,4 @@
-# ANPR - Automatic Number Plate Recognition
+# ANPR: Automatic Number Plate Recognition
 ANPR is a Recognition Model that includes two stages:
 - First stage: Plate Detection (detects all plates in the images).
 - Second stage: Number Reading (reads the text on the detected plates).
