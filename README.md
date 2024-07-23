@@ -31,8 +31,8 @@ ANPR is a Recognition Model that includes two stages:
     ![image](https://github.com/tomsawyer0224/anpr/assets/130035084/f15c5095-2308-4044-bd67-048e6c87b784) \
     ![image](https://github.com/tomsawyer0224/anpr/assets/130035084/b75f8696-c2a4-470d-8c47-f13448178a3c)
 3. **Conclusions**
-- The performance is acceptable when using small models.
-- The recognition time can be reduced by using a better GPU.
+    - The performance is acceptable when using small models.
+    - The recognition time can be reduced by using a better GPU.
 # How to use
 1. Clone this repo, cd into anpr.
 2. Install the requirements: pip install -q -r requirements.txt.
