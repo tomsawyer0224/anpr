@@ -13,7 +13,7 @@ ANPR is a Recognition Model that includes two stages:
         - Library: Ultralytics.
         - Platform: Kaggle free (with T4 GPU).
     - The readers are used directly.
-2. **Evaluate the performance of ANPR**
+2. **Evaluate the performance of these ANPR model**
     - Models: yolov8_easyocr, yolov8_paddleocr, rtdetr_easyocr, and rtdetr_paddleocr.
     - Test dataset: 984 images.
     - Platform: Google Colab free (with T4 GPU).
