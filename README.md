@@ -7,12 +7,12 @@ ANPR is a Recognition Model that includes two stages:
 - This project was built to evaluate the performance when combining two detectors (YOLOv8, RT-DETR) and two readers (easyocr, PaddleOCR).
 # Experiment
 1. **Training**
-- The detectors:
-    - Model: yolov8m, yolov8n, rt-detrl.
-    - Dataset: [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor).
-    - Library: Ultralytics.
-    - Platform: Kaggle free (with T4 GPU).
-- The readers are used directly.
+    - The detectors:
+        - Model: yolov8m, yolov8n, rt-detrl.
+        - Dataset: [plate dataset](https://universe.roboflow.com/anpr-bccrx/anpr-bpzor).
+        - Library: Ultralytics.
+        - Platform: Kaggle free (with T4 GPU).
+    - The readers are used directly.
 2. **Evaluate the performance of ANPR**
 - Models: yolov8_easyocr, yolov8_paddleocr, rtdetr_easyocr, and rtdetr_paddleocr.
 - Test dataset: 984 images.
