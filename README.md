@@ -23,7 +23,7 @@ rtdetr_easyocr	    0.08422949433443708	  0.03484810931174865	 1.083415112855741	
 rtdetr_paddleocr    0.0851054154153661	  0.030265903098543444	 1.083415112855741	True
 ```
 3. **Conclusions**
-- The performance is acceptable when using quite small models.
+- The performance is acceptable when using small models.
 - The recognition time can be reduced by using a better GPU.
 # How to use:
 1. Clone this repo, cd into anpr.
