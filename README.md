@@ -13,6 +13,7 @@ ANPR is a Recognition Model that includes two stages:
     - Platform: Kaggle free (T4 GPU).
 - The readers are used directly.
 2. **Results**
+
 ```
 anpr_type	    avg_detect_time	  avg_read_time	         avg_box	        use_gpu
 yolov8_easyocr	    0.08119338698195289	  0.034601540981962824	 1.083415112855741	True
